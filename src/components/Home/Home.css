@@ -1,0 +1,13 @@
+.div-style{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#input-style{
+    height: 35px;
+    width: 30%;
+    background-color: azure;
+    border-radius: 2px;
+    border: 1px solid gray;
+}
