@@ -14,7 +14,9 @@ input{
 }
 .btn-style{
     width: 60%;
-    background-color: green;
+    background-color: rgba(255, 68, 0, 0.705);
+    border: none;
+    padding: 5px;
     color: white;
 }
 .bg-style{

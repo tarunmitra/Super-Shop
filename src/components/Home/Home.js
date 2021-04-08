@@ -18,8 +18,8 @@ const Home = () => {
             </div>
             {
                 products.length === 0 && <div className="text-center">
-                <div class="spinner-border text-success" role="status">
-                    <span class="visually-hidden"></span>
+                <div className="spinner-border text-success" role="status">
+                    <span className="visually-hidden"></span>
                    
                 </div>
                 <p>...loading</p>

@@ -14,6 +14,7 @@ const Admin = () => {
         const productData = {
             name: data.name,
             price: data.price,
+            wight: data.wight,
             imageURL: imageURL,
         };
 
@@ -55,15 +56,19 @@ const Admin = () => {
                 <hr/>
                 <form onSubmit={handleSubmit(onSubmit)}>
 
-                    <input name="name" defaultValue="upload new product" ref={register} />
-                    <br />
-                    <input name="price" defaultValue="set product price" ref={register} />
-                    <br />
-                    <input name="exampleRequired" type="file" onChange={handleImageUpload} />
-                    <br />
+                   <label>Product Name:</label><br/>
+                   <input name="name" defaultValue="new product name" ref={register} />
+                   <br/>
+                    
+                   <label>Set price:</label><br/>
+                   <input name="price" defaultValue="set product price" ref={register} />
+                   <br/>
 
-
-                    <input type="submit" />
+                   <label>Product Image:</label><br/>
+                   <input name="exampleRequired" type="file" onChange={handleImageUpload} />
+                   <br/>
+                   
+                   <input type="submit" className="btn-style mt-3" />
                 </form>
             </div>
         </div>
