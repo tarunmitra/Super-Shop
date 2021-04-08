@@ -21,6 +21,8 @@ const Product = () => {
 
     const handleCheckOut=()=>{
         const newCheckOut = {...loggedInUser, ...item}
+        newCheckOut.date= new Date()
+        console.log(newCheckOut) 
        fetch('https://powerful-lake-13884.herokuapp.com/addCheckOut',{
            method: 'POST',
            headers: {'Content-type' : 'application/json'},
