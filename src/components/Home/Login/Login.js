@@ -70,7 +70,7 @@ const Login = () => {
                     </p>
                     <p className="text-center">Or</p>
                     <hr />
-                    <button className="btn-style btn-block" onClick={handleGoogleSignIn}>Continue With Google</button>
+                    <button className="btn btn-info btn-block" onClick={handleGoogleSignIn}>Continue With Google</button>
                 </form>
                 
                 
