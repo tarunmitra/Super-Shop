@@ -11,7 +11,7 @@ const Placed = (props) => {
             <h4 className="text-success">Your order submitted successfully</h4>
             <h5>You have ordered: {name}</h5>
             <h5>Order date: {date}</h5>
-            <h4>Your total price: ${price}</h4>
+            <h4 className="text-info">Your total price: ${price}</h4>
             <h4>Thanks for your order. Stay touched with us.</h4>
             </div>
         </div>

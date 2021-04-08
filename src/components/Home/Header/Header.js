@@ -9,7 +9,7 @@ const Header = () => {
    
     
           <Navbar bg="light" expand="lg">
-            <Navbar.Brand className="header-color">Super Shop</Navbar.Brand>
+            <Link className="header-color nav-link text-white" to="/home">Super Shop</Link>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto"></Nav>

@@ -1,26 +1,11 @@
-.div-center{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-   
-}
 .form-style{
     width: 40%;
-}
-input{
-    margin: 5px;
-    /* width: 80%; */
 }
 .btn-style{
     width: 60%;
     background-color: rgba(255, 68, 0, 0.705);
     border: none;
-    padding: 5px;
+    padding: 6px;
     color: white;
-}
-.bg-style{
-    background-position: center;
-    background-size: cover;
-    height: 700px;
+    border-radius: 5px;
 }
